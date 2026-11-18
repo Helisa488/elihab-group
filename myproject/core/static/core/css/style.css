@@ -1,4 +1,4 @@
-
+my aboout (
 /* =====================================================
    ELIHAB GROUP — EMERALD LUXURY
    Premium Technology & Digital Innovation
@@ -43,7 +43,7 @@
 
 /* ================= RESET ================= */
 
-* {
+- {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -1181,4 +1181,4 @@ footer {
         animation: none !important;
         transition: none !important;
     }
-}
+})
