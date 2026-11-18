@@ -1,0 +1,58 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | ELIHAB GROUP</title>
+    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="/" class="logo">ELIHAB<span>GROUP</span></a>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="{% url 'about' %}">About</a>
+        <a href="{% url 'services' %}">Services</a>
+        <a href="/#projects">Projects</a>
+        <a href="/#contact">Contact</a>
+    </nav>
+
+    <a href="/#contact" class="nav-button">Get Started</a>
+</header>
+
+<section class="about">
+    <p class="subtitle">WHO WE ARE</p>
+    <h2>About ELIHAB GROUP</h2>
+
+    <p>
+        ELIHAB GROUP is a technology-focused organization
+        committed to delivering innovative digital solutions.
+        We help individuals and businesses grow through
+        website development and IT services.
+    </p>
+
+    <h2>Our Mission</h2>
+    <p>
+        To empower businesses and individuals through
+        reliable technology and creative digital solutions.
+    </p>
+
+    <h2>Our Vision</h2>
+    <p>
+        To become a trusted technology partner in Rwanda
+        and beyond.
+    </p>
+</section>
+
+<footer>
+    <h3>ELIHAB GROUP</h3>
+    <p>INNOVATION BEYOND LIMITS.</p>
+    <p>&copy; 2026 ELIHAB GROUP. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

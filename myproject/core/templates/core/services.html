@@ -1,0 +1,54 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | ELIHAB GROUP</title>
+    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="/" class="logo">ELIHAB<span>GROUP</span></a>
+
+        <nav>
+    <a href="/">Home</a>
+    <a href="{% url 'about' %}">About</a>
+    <a href="{% url 'services' %}">Services</a>
+    <a href="{% url 'home' %}#projects">Projects</a>
+    <a href="{% url 'home' %}#contact">Contact</a>
+</nav>
+
+        <a href="/#contact" class="nav-button">Get Started</a>
+    </header>
+
+    <section class="services">
+        <p class="subtitle">WHAT WE DO</p>
+        <h2>Our Services</h2>
+        <p>Technology solutions designed to move your business forward.</p>
+
+        <div class="service-container">
+            <div class="service-card">
+                <h3>Website Development</h3>
+                <p>Modern, responsive and professional websites
+                designed for businesses and individuals.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>IT Services</h3>
+                <p>Reliable technical support and practical
+                technology solutions for your needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h3>ELIHAB GROUP</h3>
+        <p>INNOVATION BEYOND LIMITS.</p>
+        <p>&copy; 2026 ELIHAB GROUP. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

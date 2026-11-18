@@ -1,0 +1,318 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Discover ELIHAB GROUP, our story, mission, vision and commitment to technology and innovation.">
+
+    <title>About Us | ELIHAB GROUP</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/about.css' %}">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+
+        <a href="/" class="logo">
+            <img src="{% static 'core/images/elihablogo.png' %}" alt="ELIHAB GROUP Logo">
+            <span>ELIHAB<span class="logo-accent">.</span></span>
+        </a>
+
+        <nav>
+            <a href="/">Home</a>
+            <a href="{% url 'about' %}">About</a>
+            <a href="{% url 'services' %}">Services</a>
+            <a href="{% url 'home' %}#projects">Projects</a>
+            <a href="{% url 'home' %}#contact">Contact</a>
+
+        <a href="/#contact" class="nav-button">
+            Let's Talk <span>↗</span>
+        </a>
+
+    </header>
+
+
+    <main>
+
+        <!-- ABOUT HERO -->
+        <section class="about-hero">
+
+            <div class="about-hero-content">
+
+                <div class="hero-label">
+                    <span class="status-dot"></span>
+                    OUR IDENTITY · OUR PURPOSE · OUR FUTURE
+                </div>
+
+                <p class="subtitle">GET TO KNOW US</p>
+
+                <h1>
+                    Beyond Technology.
+                    <span>Driven By Purpose.</span>
+                </h1>
+
+                <p class="about-hero-description">
+                    We are ELIHAB GROUP — a technology-focused organization
+                    committed to transforming ideas into meaningful digital
+                    experiences through creativity, innovation and excellence.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#our-story" class="primary-btn">
+                        Discover Our Story <span>↘</span>
+                    </a>
+
+                    <a href="/#contact" class="secondary-btn">
+                        Connect With Us
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="about-hero-visual">
+                <div class="about-orb-glow"></div>
+                <div class="about-orb-ring"></div>
+
+                <div class="about-emblem">
+                    <span>EG</span>
+                    <small>ELIHAB GROUP</small>
+                </div>
+
+                <div class="about-floating-label">
+                    INNOVATION BEYOND LIMITS
+                </div>
+            </div>
+
+            <div class="about-hero-bottom">
+                <span>02 / ABOUT ELIHAB</span>
+                <span>DISCOVER OUR PURPOSE ↓</span>
+            </div>
+
+        </section>
+
+
+        <!-- OUR STORY -->
+        <section class="story-section" id="our-story">
+
+            <div class="section-heading">
+                <p class="subtitle">OUR STORY</p>
+
+                <h2>
+                    Ideas Become
+                
+        </nav>    <span>Possibilities.</span>
+                </h2>
+            </div>
+
+            <div class="story-content">
+
+                <div class="story-number">01</div>
+
+                <div class="story-text">
+                    <h3>Who We Are</h3>
+
+                    <p class="story-lead">
+                        We believe technology should create opportunities,
+                        solve real problems and make a meaningful difference.
+                    </p>
+
+                    <p>
+                        ELIHAB GROUP is a technology-focused organization
+                        providing website development and IT services
+                        to individuals and businesses in Rwanda and beyond.
+                    </p>
+
+                    <p>
+                        We focus on practical digital solutions,
+                        thoughtful creativity and professional service.
+                        Our goal is to help people and organizations
+                        move forward in an increasingly digital world.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MISSION AND VISION -->
+        <section class="purpose-section">
+
+            <div class="section-heading">
+                <p class="subtitle">OUR DIRECTION</p>
+
+                <h2>
+                    Purpose Behind
+                    <span>Everything.</span>
+                </h2>
+            </div>
+
+            <div class="purpose-grid">
+
+                <article class="purpose-card">
+                    <span class="purpose-number">01 / MISSION</span>
+
+                    <div class="purpose-icon">✦</div>
+
+                    <h3>Our Mission</h3>
+
+                    <p>
+                        To provide practical and innovative technology
+                        solutions that help individuals and businesses
+                        establish, strengthen and grow their digital presence.
+                    </p>
+                </article>
+
+
+                <article class="purpose-card">
+                    <span class="purpose-number">02 / VISION</span>
+
+                    <div class="purpose-icon">◈</div>
+
+                    <h3>Our Vision</h3>
+
+                    <p>
+                        To become a trusted technology brand recognized
+                        for creativity, innovation and excellence,
+                        creating meaningful digital possibilities
+                        in Rwanda and beyond.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CORE VALUES -->
+        <section class="values-section">
+
+            <div class="section-heading">
+                <p class="subtitle">WHAT DEFINES US</p>
+
+                <h2>
+                    Our Core
+                    <span>Values.</span>
+                </h2>
+
+                <p class="section-description">
+                    The principles that guide our thinking,
+                    our work and our commitment to excellence.
+                </p>
+            </div>
+
+            <div class="values-grid">
+
+                <article class="value-card">
+                    <span>01</span>
+                    <h3>Innovation</h3>
+                    <p>
+                        Exploring better ideas and embracing
+                        new possibilities through technology.
+                    </p>
+                </article>
+
+                <article class="value-card">
+                    <span>02</span>
+                    <h3>Creativity</h3>
+                    <p>
+                        Turning imagination and fresh thinking
+                        into meaningful digital experiences.
+                    </p>
+                </article>
+
+                <article class="value-card">
+                    <span>03</span>
+                    <h3>Excellence</h3>
+                    <p>
+                        Striving for quality, professionalism
+                        and attention to detail in everything we do.
+                    </p>
+                </article>
+
+                <article class="value-card">
+                    <span>04</span>
+                    <h3>Integrity</h3>
+                    <p>
+                        Building trust through honesty,
+                        responsibility and respect.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CALL TO ACTION -->
+        <section class="about-cta">
+
+            <div class="about-cta-content">
+
+                <p class="subtitle">THE FUTURE STARTS WITH AN IDEA</p>
+
+                <h2>
+                    Let's Create
+                    <span>Something Meaningful.</span>
+                </h2>
+
+                <p>
+                    Every great digital experience begins with a vision.
+                    Let's explore the possibilities together.
+                </p>
+
+                <a href="https://wa.me/250791359575"
+                   class="primary-btn"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Start A Conversation <span>↗</span>
+                </a>
+
+            </div>
+
+            <div class="about-cta-decoration">EG.</div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h3>ELIHAB GROUP<span>.</span></h3>
+                <p>INNOVATION BEYOND LIMITS.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="{% url 'about' %}">About</a>
+                <a href="{% url 'services' %}">Services</a>
+                <a href="/#projects">Projects</a>
+                <a href="/#contact">Contact</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 ELIHAB GROUP. All rights reserved.</p>
+            <p>Designed with purpose. Built for the future.</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
